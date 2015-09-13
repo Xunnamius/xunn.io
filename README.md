@@ -1,3 +1,3 @@
-Xunn's playground :)
+Xunn's lil playground :)
 
 https://xunn.io
