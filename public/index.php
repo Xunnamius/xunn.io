@@ -28,8 +28,8 @@
 
             #logo {
                 position: absolute;
-                top: 50%;
-                left: 50%;
+                top: 0;
+                left: 0;
             }
 
             #logo img {
