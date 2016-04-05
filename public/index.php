@@ -23,7 +23,7 @@
                 width: 100%;
                 height: 100%;
                 background-color: black;
-                opacity: 0.8;
+                opacity: 0.7;
             }
 
             #logo {
@@ -33,12 +33,12 @@
             }
 
             #logo img {
-                opacity: 0.8;
+                opacity: 0.6;
             }
         </style>
     </head>
     <body>
-        <div id="logo"><img src="logowct.png" alt="logo" /></div>
         <div id="cover1"></div>
+        <div id="logo"><img src="logowct.png" alt="logo" /></div>
     </body>
 </html>
