@@ -6,6 +6,8 @@
             html, body  {
                 height: 100%;
                 width: 100%;
+                margin: 0;
+                position: relative;
             }
 
             body {
@@ -26,6 +28,8 @@
 
             #logo {
                 position: absolute;
+                top: 0;
+                left: 0;
             }
         </style>
     </head>
