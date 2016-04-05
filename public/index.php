@@ -19,6 +19,6 @@
         </style>
     </head>
     <body>
-        <img src="logobct.png" alt="logo" />
+        <img src="logowct.png" alt="logo" />
     </body>
 </html>
