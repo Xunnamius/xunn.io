@@ -23,18 +23,22 @@
                 width: 100%;
                 height: 100%;
                 background-color: black;
-                opacity: .4;
+                opacity: 0.4;
             }
 
             #logo {
                 position: absolute;
-                top: 0;
-                left: 0;
+                top: 50%;
+                left: 50%;
+            }
+
+            #logo img {
+                opacity: 0.8;
             }
         </style>
     </head>
     <body>
-        <div id="cover1"></div>
         <div id="logo"><img src="logowct.png" alt="logo" /></div>
+        <div id="cover1"></div>
     </body>
 </html>
