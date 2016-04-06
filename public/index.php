@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Playground of Xunnamius</title>
+        <title>Divinus Xunnamius</title>
         <style>
             html, body  {
                 height: 100%;
@@ -12,6 +12,9 @@
             body {
                 background-image: url('bg.png');
                 background-size: cover;
+                font-family: sans-serif;
+                color: #909090;
+                font-variant: small-caps;
             }
 
             img {
@@ -26,27 +29,30 @@
                 position: absolute;
                 top: 0;
                 left: 0;
+                z-index: -1;
             }
 
             h1 {
                 text-align: center;
                 margin-top: 50vh;
-                color: #909090;
-                position: relative;
-                font-family: sans-serif;
-                font-variant: small-caps;
             }
 
             ul {
                 list-style-type: none;
+                text-align: center;
             }
 
             ul li {
                 display: inline;
             }
 
-            ul li:not(li:last-child):after {
-                content: ' | ';
+            ul li:after {
+                content: ' _ ';
+                color: white;
+            }
+
+            ul li:last-child {
+                content: '';
             }
 
             a {
