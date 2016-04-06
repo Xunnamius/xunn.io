@@ -44,6 +44,7 @@
 
             ul li {
                 display: inline;
+                text-transform: lowercase;
             }
 
             ul li:after {
@@ -53,6 +54,7 @@
 
             ul li:last-child:after {
                 content: '';
+                padding-right: 30px;
             }
 
             a {
