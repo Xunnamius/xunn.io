@@ -71,8 +71,8 @@
         <div id="cover1"></div>
         <h1>what you seek is coming soon</h1>
         <ul>
-            <li><a href="https://ergodark.com">ErgoDark LLC</a></li>
-            <li><a href="https://deepcode.io">Deepcode Blog</a></li>
+            <li><a href="https://ergodark.com">ErgoDark</a></li>
+            <li><a href="https://deepcode.io">Deepcode</a></li>
             <li><a href="https://bernarddickens.com">Portfolio</a></li>
         </ul>
     </body>
