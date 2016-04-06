@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Xunn Wuz Here</title>
+        <title>The Playground of Xunnamius</title>
         <style>
             html, body  {
                 height: 100%;
@@ -36,10 +36,36 @@
                 font-family: sans-serif;
                 font-variant: small-caps;
             }
+
+            ul {
+                list-style-type: none;
+            }
+
+            ul li {
+                display: inline;
+            }
+
+            ul li:not(li:last-child):after {
+                content: ' | ';
+            }
+
+            a {
+                color: #C0C0C0;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #909090;
+            }
         </style>
     </head>
     <body>
         <div id="cover1"></div>
         <h1>what you seek is coming soon</h1>
+        <ul>
+            <li><a href="https://ergodark.com">ErgoDark LLC</a></li>
+            <li><a href="https://deepcode.io">Deepcode Blog</a></li>
+            <li><a href="https://bernarddickens.com">Portfolio</a></li>
+        </ul>
     </body>
 </html>
