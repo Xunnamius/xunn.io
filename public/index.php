@@ -51,7 +51,7 @@
                 color: white;
             }
 
-            ul li:last-child {
+            ul li:last-child:after {
                 content: '';
             }
 
