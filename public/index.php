@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Divinus Xunnamius</title>
+        <title>Xunn's Worlds</title>
         <style>
             html, body  {
                 height: 100%;
