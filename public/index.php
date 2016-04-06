@@ -7,7 +7,6 @@
                 height: 100%;
                 width: 100%;
                 margin: 0;
-                position: relative;
             }
 
             body {
@@ -23,22 +22,15 @@
                 width: 100%;
                 height: 100%;
                 background-color: black;
-                opacity: 0.7;
-            }
-
-            #logo {
+                opacity: 0.8;
                 position: absolute;
                 top: 0;
                 left: 0;
-            }
-
-            #logo img {
-                opacity: 0.6;
             }
         </style>
     </head>
     <body>
         <div id="cover1"></div>
-        <div id="logo"><img src="logowct.png" alt="logo" /></div>
+        <h1>What you seek is coming soon...</h1>
     </body>
 </html>
