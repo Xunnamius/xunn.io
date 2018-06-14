@@ -10,6 +10,9 @@ deploy:master_to_www:
           "master": {
             "web_public_dir": "public"
           }
+        },
+        "command": {
+          "post": "cachetool opcache:reset --fcgi=/run/php/php7.1-xunn.io.sock"
         }
       }
   only:

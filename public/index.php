@@ -69,7 +69,7 @@
     </head>
     <body>
         <div id="cover1"></div>
-        <h1>what you seek is coming... eventually!</h1>
+        <h1>what you seek is coming... eventually :)</h1>
         <ul>
             <li><a href="https://ergodark.com">ErgoDark</a></li>
             <li><a href="https://deepcode.io">Deepcode</a></li>
