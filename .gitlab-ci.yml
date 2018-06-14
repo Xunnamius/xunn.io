@@ -1,0 +1,19 @@
+deploy:master_to_www:
+  script:
+    - export
+  stage: deploy
+  environment: production
+  variables:
+    WEBMIRROR_JSON_CONFIG: |+
+      {
+        "branches": {
+          "master": {
+            "web_public_dir": "public"
+          }
+        }
+      }
+  only:
+    - master
+    - triggers
+  tags:
+    - deploy
